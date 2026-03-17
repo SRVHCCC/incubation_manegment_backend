@@ -23,7 +23,7 @@ const allowedOrigins =
         "http://localhost:3001",
         "http://192.168.0.204:3000",
       ]
-    : ["https://yourfrontend.com"];
+    : ["https://incubation-manegment-frontend.vercel.app/"];
 
 const rateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
